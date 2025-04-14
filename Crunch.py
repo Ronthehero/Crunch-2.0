@@ -21,9 +21,9 @@ def print_ascii_logo():
         try:
             subprocess.run(["figlet", "Crunch 2 . 0"], check=True)
         except Exception:
-            print("=== Crunch 2.0, your Friendly, OP & Sexy WordList Generator ===")
+            print("=== Crunch 2.0, your Friendly & OP WordList Generator ===")
     else:
-        print("=== Crunch 2.0, your Friendly, OP & Sexy WordList Generator ===")
+        print("=== Crunch 2.0, your Friendly & OP WordList Generator ===")
 
 def main():
     print_ascii_logo()
